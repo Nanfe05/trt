@@ -1,0 +1,19 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  min-height: 100vh;
+}
+
+
+.dynamicHeght{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  flex: 1 0 auto;
+
+}
