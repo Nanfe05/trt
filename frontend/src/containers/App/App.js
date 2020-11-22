@@ -1,6 +1,5 @@
-import './App.scss';
-import Header from '../../components/header/header';
-import Footer from '../../components/footer/footer';
+import Header from '../../components/Header/header';
+import Footer from '../../components/Footer/footer';
 
 const DynamicHeight = (props) =>{
   return(<div className='dynamicHeght'>
@@ -10,10 +9,10 @@ const DynamicHeight = (props) =>{
 
 function App() {
   return (
-    <div className="App">
+    <div title="application" className="App">
         <Header/>
           <DynamicHeight>
-            <p>lkdfj</p>
+            <p>Holder</p>
           </DynamicHeight>
         <Footer/>
     </div>

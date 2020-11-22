@@ -40,7 +40,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1.5;
+	line-height: 1;
 	font-family: $font-def;
 }
 ol, ul {
@@ -62,3 +62,8 @@ table {
 	box-sizing: border-box;
 	
 }
+
+
+@import './containers/App/App.scss';
+@import './components/header/header.scss';
+@import './components/footer/footer.scss';
