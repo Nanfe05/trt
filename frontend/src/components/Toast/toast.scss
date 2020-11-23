@@ -1,0 +1,21 @@
+.toast{
+    width: 500px;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 20px;
+    border: 2px solid $yellow;
+
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.5);
+
+    background:$white;
+}
+
+.toast-holder{
+    &.MuiSnackbar-root{
+        top:17%
+    }
+}

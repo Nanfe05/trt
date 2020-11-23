@@ -1,0 +1,50 @@
+.form-holder{
+
+    height: 370px;
+    width: 320px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: $white;
+
+    border-radius: 20px;
+
+    pointer-events: auto;
+
+    &>.label{
+        width: 90%;
+
+        text-align: center;
+        color:$yellow;
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 15px;
+        border-bottom: 2px solid $yellow;
+    }
+
+    &>.txtFields{
+        width: 90%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        & >.MuiFormControl-root.MuiTextField-root{
+            width: 90%;
+            margin: 5px 0;
+
+            &>label{
+                &.Mui-focused{
+                    color: $yellow;
+                }
+            }
+            &>.MuiInput-underline::after{
+                border-bottom: 2px solid $yellow;
+            }
+        }
+    }
+}

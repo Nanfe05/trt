@@ -11,7 +11,7 @@ const Header = (props) =>{
       <>
         <header title="header" className="header">
           <img src={logo} alt='treinta-logo' className='logo'/>
-          <LogManager/>
+          <LogManager user={props.user} setModal={props.setModal} setUser={props.setUser} setAppMsg={props.setAppMsg}/>
         </header>
         <NavBar route={props.route} setRoute={props.setRoute}/>
       </>

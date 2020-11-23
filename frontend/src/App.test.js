@@ -5,6 +5,10 @@ import Footer from './components/Footer/footer';
 import NavBar from './components/NavBar/navBar';
 import Home from './components/Home/home';
 import About from './components/About/about';
+import LogModal from './containers/LogModal/LogModal';
+import LoginForm from './components/Forms/loginForm';
+import SigninForm from './components/Forms/signinForm';
+import Toast from './components/Toast/toast';
 
 import LogManager from './components/LogManager/logManager';
 
@@ -13,9 +17,8 @@ import Btn from './components/Btn/btn';
 
 // Test main component
 test('Render APP Component', () => {
-  render(<App />);
+  render(<App test={true}/>);
   const linkElement = screen.getByTitle("application");
-  // console.log('XXXXXX: ',linkElement);
   expect(linkElement).toBeInTheDocument();
 });
 
@@ -66,5 +69,33 @@ test('Render Home Component', () => {
 test('Render About Component', () => {
   render(<About/>);
   const linkElement = screen.getByTitle("about-page");
+  expect(linkElement).toBeInTheDocument();
+});
+
+// Test LogModal component
+test('Render LogModal Component', () => {
+  render(<LogModal modal={true}/>);
+  const linkElement = screen.getByTitle("modal");
+  expect(linkElement).toBeInTheDocument();
+});
+
+// Test SigninForm component
+test('Render SigninForm Component', () => {
+  render(<SigninForm />);
+  const linkElement = screen.getByTitle("signin-form");
+  expect(linkElement).toBeInTheDocument();
+});
+
+// Test LoginForm component
+test('Render LoginForm Component', () => {
+  render(<LoginForm />);
+  const linkElement = screen.getByTitle("login-form");
+  expect(linkElement).toBeInTheDocument();
+});
+
+// Test Toast component
+test('Render Toast Component', () => {
+  render(<Toast appMsg='prueba' />);
+  const linkElement = screen.getByTitle("toast");
   expect(linkElement).toBeInTheDocument();
 });
