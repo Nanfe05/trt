@@ -14,6 +14,8 @@ import LogManager from './components/LogManager/logManager';
 
 import Btn from './components/Btn/btn';
 
+import BusinessIcon from './components/BusinessIcon/businessIcon';
+
 
 // Test main component
 test('Render APP Component', () => {
@@ -97,5 +99,12 @@ test('Render LoginForm Component', () => {
 test('Render Toast Component', () => {
   render(<Toast appMsg='prueba' />);
   const linkElement = screen.getByTitle("toast");
+  expect(linkElement).toBeInTheDocument();
+});
+
+// Test BusinessIcon component
+test('Render Toast Component', () => {
+  render(<BusinessIcon />);
+  const linkElement = screen.getByTitle("business-icon");
   expect(linkElement).toBeInTheDocument();
 });

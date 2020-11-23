@@ -1,10 +1,10 @@
 {"routes":[
     {
-        "name":"home",
+        "name":"inicio",
         "path":"/"
     },
     {
-        "name":"about",
+        "name":"acerca",
         "path":"/about"
     }
 ]}

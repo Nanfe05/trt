@@ -40,6 +40,11 @@ function App(props) {
   if(!props.test){
     CheckIfLogged(user,setUser,setAppMsg);
   }
+  
+  // Set right route at init
+  if(route !== window.location.pathname){
+    setRoute(window.location.pathname);
+  }
 
   return (
     <div title="application" className="App">

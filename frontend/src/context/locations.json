@@ -1,0 +1,20 @@
+[
+    {
+        "name":"Negocio 1",
+        "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "lat":4.6417784186345035,
+        "lng":-74.06203770939308
+    },
+    {
+        "name":"Negocio 2",
+        "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "lat":4.63960225815394,
+        "lng":-74.06434440913793
+    },
+    {
+        "name":"Negocio 3",
+        "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "lat":4.639522055532647,
+        "lng":-74.06692469419008
+    }
+]

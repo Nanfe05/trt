@@ -1,0 +1,42 @@
+.b-icon{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 50px;
+    min-height: 50px;
+
+    border-radius: 5px;
+    background: $yellow;
+
+    cursor: pointer;
+    &>img{
+        width: 30px;
+        margin: 5px;
+    }
+}
+
+.additional-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 150px;
+
+    padding: 10px;
+
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+
+    &>.name{
+        font-weight: bold;
+        font-size: 1rem;
+        color:$black;
+        margin: 5px;
+    }
+    &>.desc{
+        font-size: 0.8rem;
+        color: $gray;
+    }
+}
