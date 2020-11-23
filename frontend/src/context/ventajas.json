@@ -1,0 +1,17 @@
+[
+    {
+        "url":"/assests/mano.png",
+        "title":"Obtén un control eficaz de su flujo de caja",
+        "desc":"Registra diligentemente las ventas, los gastos y las cuentas por cobrar y calcula la utilidad de tu negocio fácilmente."
+    },
+    {
+        "url":"/assests/equipo.png",
+        "title":"Automatiza tu negocio y obtén resultados precisos",
+        "desc":"Sin complicaciones de cálculos manuales. Todos los números se calculan automáticamente."
+    },
+    {
+        "url":"/assests/negocio.png",
+        "title":"Ahorra tiempo y dedícalo en lo que más te gusta",
+        "desc":"Ten más libertad para administrar tu tiempo en el negocio, pasar más tiempo en familia y disfrutar de tus pasiones."
+    }
+]

@@ -16,5 +16,149 @@
         "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         "lat":4.639522055532647,
         "lng":-74.06692469419008
+    },
+    {
+        "name":"Negocio 4",
+        "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "lat": 4.643552057330456,
+        "lng":-74.05963420186303
+    },
+    
+    {
+        "name":"Negocio 5",
+        "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "lat":4.640771710695693, 
+        "lng":-74.05886172568317
+    },
+    
+    {
+        "name":"Negocio 6",
+        "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "lat":4.637830947529489,
+        "lng": -74.06041740687873
+    },
+    
+    {
+        "name":"Negocio 7",
+        "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "lat":4.637584992236975,
+        "lng":-74.06252025870167
+    },
+     
+    {
+        "name":"Negocio 8",
+        "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "lat":4.637702623039735,
+        "lng":-74.06412958407638
+    },
+     
+    {
+        "name":"Negocio 9",
+        "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "lat":4.63805551528114,
+        "lng":-74.06566380768584
+    },
+     
+    {
+        "name":"Negocio 10",
+        "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "lat":4.638739911948426,
+        "lng": -74.06747698094134
+    },
+    
+    {
+        "name":"Negocio 11",
+        "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "lat":4.639894829820308,
+        "lng":-74.06777738834462
+    },
+     
+    {
+        "name":"Negocio 12",
+        "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "lat":4.64161650943632,
+        "lng":-74.06743406559802
+    },
+     
+    {
+        "name":"Negocio 13",
+        "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "lat":4.642546856300706,
+        "lng":-74.06655430105984
+    },
+     
+    {
+        "name":"Negocio 14",
+        "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "lat":4.642183272614664,
+        "lng":-74.06411885532611
+    },
+     
+    {
+        "name":"Negocio 15",
+        "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "lat":4.6394884700437595,
+        "lng":-74.06403302463946
+    },
+     
+    {
+        "name":"Negocio 16",
+        "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "lat":4.642733430502703,
+        "lng": -74.06433739110831
+    },
+    {
+        "name":"Negocio 17",
+        "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "lat":4.642786898710841,
+        "lng":-74.06120457099784
+    },
+    {
+        "name":"Negocio 18",
+        "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "lat":4.643663775943256,
+        "lng":-74.05807175093508
+    },
+    {
+        "name":"Negocio 19",
+        "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "lat":4.636916070570222,
+        "lng":-74.05838288714904
+    },
+    {
+        "name":"Negocio 20",
+        "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "lat":4.62996511804207,
+        "lng":-74.06572141096036
+    },
+    {
+        "name":"Negocio 21",
+        "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "lat": 4.631216294494444,
+        "lng":-74.07086052339893
+    },
+    {
+        "name":"Negocio 22",
+        "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "lat":4.6310558873774434,
+        "lng":-74.07215871253453
+    },
+    {
+        "name":"Negocio 23",
+        "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "lat":4.632873832573129,
+        "lng": -74.07249130644531
+    },
+    {
+        "name":"Negocio 24",
+        "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "lat":4.634178472715129,
+        "lng":-74.07398261462588
+    },
+    {
+        "name":"Negocio 25",
+        "desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "lat":4.626543085529199,
+        "lng":-74.07393969933113
     }
 ]

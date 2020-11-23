@@ -104,7 +104,7 @@ test('Render Toast Component', () => {
 
 // Test BusinessIcon component
 test('Render Toast Component', () => {
-  render(<BusinessIcon />);
+  render(<BusinessIcon element={{name:'negocio',desc:'lorem ipsum'}}/>);
   const linkElement = screen.getByTitle("business-icon");
   expect(linkElement).toBeInTheDocument();
 });
